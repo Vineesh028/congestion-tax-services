@@ -20,6 +20,9 @@ WORKDIR /app
 # Copy the built JAR file from the previous stage
 COPY --from=build /app/target/*.jar app.jar
 
+# Path to City JSON file
+ENV json.path=Gothenburg.json
+
 # Expose the port on which the Spring Boot application will run
 EXPOSE 8080
 
