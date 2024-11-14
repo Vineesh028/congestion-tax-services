@@ -1,3 +1,4 @@
+# How to run
 #Using maven - From the project root directory
    
     mvn spring-boot:run
