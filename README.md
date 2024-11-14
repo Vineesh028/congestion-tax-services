@@ -1,8 +1,7 @@
 How to run the service
 
 #Using maven - From the project root directory
-		Run command
-		mvn spring-boot:run
+  mvn spring-boot:run
 
 
 #With Jar file
